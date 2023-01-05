@@ -65,13 +65,16 @@ nav li {
   margin-bottom: 30px;
 }
 
-main {
+.about-me {
   background-color: #faf5f1;
   /* max-width: 1200px; */
   margin-left: 15%;
   margin-right: 15%;
+  padding: 20px;
+  text-align: center;
+  display: flex;
  }
-main h3 {
+.me-text {
   margin-left: 40%;
   margin-top: 150px;
   margin-bottom: 20px;
@@ -83,17 +86,53 @@ main h3 {
   text-align: center;
   color: #fd6e0a;
 }
-main p {
+.about-me-p {
   text-align: center;
   padding:0 200px 0px 200px;
   font-size: 20px;
 
 }
 table {
+    background-color: #faf5f1;
     padding: 20px 200px;
-    margin-left: 15%;
+    margin-left: 25%;
     text-align: center;
+    margin-bottom: 10px;
+    padding-bottom: 200px;
+    margin-right: 15%;
 }
 table td {
     padding: 10px;
+}
+
+/* what I do section starts */
+.what-i-do{
+    margin-top: 10px;
+    width: 1200px;
+    background-color: #faf5f1;
+  /* max-width: 1200px; */
+  margin-left: 15%;
+  margin-right: 15%;
+  padding: 50px;
+  text-align: center;
+}
+
+.skills-container {
+    display: flex;
+    gap: 24px;
+}
+.skill{
+    background: #fff;
+    box-shadow: 0px 6px 50px rgba(0, 0, 0, 0.06);
+    border-radius: 5px;
+    padding: 30px;
+}
+.skill-title {
+    font-weight: 700;
+    font-size: 20px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.skill-description{
+font-size: 20px;
 }
